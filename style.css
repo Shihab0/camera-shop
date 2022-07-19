@@ -322,3 +322,17 @@ footer span{
    /* -------------- */
 }
 
+@media screen and (min-width: 668px) and (max-width: 992px){
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .products{
+        grid-template-columns: repeat(2 ,1fr);
+        justify-items: center;
+       }
+}
+
